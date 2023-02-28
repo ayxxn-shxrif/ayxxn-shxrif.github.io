@@ -5,8 +5,8 @@ const filtersArray = [
   "React",
   "Node",
   "Express",
-
-  "PostgreSQL",
+"SQL","R"
+,  "PostgreSQL",
   "MongoDB",
 "Tensorflow",
 "Jupyter Notebook",

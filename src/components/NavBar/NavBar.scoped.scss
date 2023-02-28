@@ -44,14 +44,10 @@ li {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .nav-links {
-    margin-right: -7.5px;
-    display: block;
-    text-align: right;
-    flex-direction: column;
-    a {
-      font-size: 12px;
-    }
+@media only screen and (max-width: 500px) {
+  .nav-links{
+    a{
+    font-size:11px;
   }
+}
 }

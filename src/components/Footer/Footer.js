@@ -4,7 +4,8 @@ import {
   faLinkedinIn,
   faGithub,
   faInstagram,
-  faTelegram
+  faTelegram,
+  faKaggle
 } from "@fortawesome/free-brands-svg-icons";
 /* import { faBolt } from "@fortawesome/free-solid-svg-icons"; */
 
@@ -48,6 +49,15 @@ const Footer = () => {
             rel="noreferrer"
           >
             <FontAwesomeIcon className="icon" icon={faInstagram} />
+          </a>
+        </div>
+
+        <div className="icon-container">
+          <a
+            href="https://www.kaggle.com/ayaansharif"
+            target="_blank"
+            rel="noreferrer">
+            <FontAwesomeIcon className="icon" icon={faKaggle} />
           </a>
         </div>
        

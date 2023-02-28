@@ -8,25 +8,25 @@ const Projects = [
       "easily make cv / resume on the go.",
     skills: "React, NPM, CSS",
     skillsArray: ["All","JavaScript", "React", "CSS"],
-    link: "https://ayxxn-shxrif.github.io/Easy-CV",
+    link: "https://ayxxn-shxrif.me/Easy-CV",
   },
   {
-    img: images("./Projects-Keeper.png"),
-    title: "Projects Keeper ",
+    img: images("./front.png"),
+    title: "ProjectX",
     description:
       "A personal project keeper using Node,Mongodb and Express. ",
-    skills: "Node, Express, MongoDB, Handlebars ",
-    skillsArray: ["All","Express","Node", "MongoDB","Handlebars","Bash","CSS"],
-    link: "https://github.com/ayxxn-shxrif/Projects-Keeper",
+    skills: "Node, Express, MongoDB, Pug",
+    skillsArray: ["All","Express","Node", "MongoDB","Pug","Bash","CSS"],
+    link: "https://projectx-r5tf.onrender.com/",
   },
-  {
-    img: images("./scraping-stackoverflow.png"),
-    title: "Scraping Stackoverflow",
+    {
+    img: images("./bella.png"),
+    title: "Bellabeat-Analysis",
     description:
-      "Web crawler using Mongodb and Scrapy ",
-    skills: "Python, MongoDB",
-    skillsArray: ["All", "Python", "Webscraping", "MongoDB"],
-    link: "https://github.com/ayxxn-shxrif/scraping_stackoverflow",
+      "This is a case study conducted as part of the Google Data Analytics Professional Certificate capstone course.",
+    skills: "Python, SQL,R",
+    skillsArray: ["All", "Python", "SQL", "R"],
+    link: "http://ayxxn-shxrif.me/Bellabeat-Analysis/",
   },
   {
     img: images("./BERT-CLASSIFICATION.png"),
@@ -36,6 +36,24 @@ const Projects = [
     skillsArray: ["All","Python","Tensorflow","Jupyter Notebook","Text Classification",'Fine Tuning'],
     link: "https://github.com/ayxxn-shxrif/BERT-TEXT-CLASSIFICATION",
   },
+  {
+    img: images("./portfolio.png"),
+    title: "Personal Website",
+    description:"minimal showcase of talent on a minimal personal website",
+    skills: "React, CSS",
+    skillsArray: ["All", "JavaScript", "React", "CSS"],
+    link: "https://ayxxn-shxrif.me",
+  },
+ {
+    img: images("./scraping-stackoverflow.png"),
+    title: "Scraping Stackoverflow",
+    description:
+      "Web crawler using Mongodb and Scrapy ",
+    skills: "Python, MongoDB",
+    skillsArray: ["All", "Python", "Webscraping", "MongoDB"],
+    link: "https://github.com/ayxxn-shxrif/scraping_stackoverflow",
+  },
+
   {
     img: images("./airbnb.png"),
     title: "AIRBNB-CLONE",
