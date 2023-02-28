@@ -30,8 +30,18 @@ const Home = () => {
   return (
     <div className="home-container">
       <h1>Ayaan Sharif</h1>
-      <h3>Developer || Analyst</h3>
+      <h3>Developer || Analyst   </h3>
+      
+
+    
+
+
       <AsyncImage className="me" src={me} alt="Me" title="Hi" />
+      
+
+
+
+
     </div>
   );
 };
